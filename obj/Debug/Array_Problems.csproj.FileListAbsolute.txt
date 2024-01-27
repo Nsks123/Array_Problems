@@ -1,0 +1,7 @@
+C:\Users\hp\Desktop\LocoBuzz\Training\Array_Problems\bin\Debug\Array_Problems.exe.config
+C:\Users\hp\Desktop\LocoBuzz\Training\Array_Problems\bin\Debug\Array_Problems.exe
+C:\Users\hp\Desktop\LocoBuzz\Training\Array_Problems\bin\Debug\Array_Problems.pdb
+C:\Users\hp\Desktop\LocoBuzz\Training\Array_Problems\obj\Debug\Array_Problems.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\LocoBuzz\Training\Array_Problems\obj\Debug\Array_Problems.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\LocoBuzz\Training\Array_Problems\obj\Debug\Array_Problems.exe
+C:\Users\hp\Desktop\LocoBuzz\Training\Array_Problems\obj\Debug\Array_Problems.pdb
