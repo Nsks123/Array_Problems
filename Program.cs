@@ -1,18 +1,32 @@
 ﻿using System;
-public class SumExample
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Array_Problem4
 {
-    public static void Main(string[] args)
+    internal class Program
     {
-        int n, sum = 0, m;
-        Console.Write("Enter a number: ");
-        n = int.Parse(Console.ReadLine());
-        while (n > 0)
+        static void Main(string[] args)
         {
-            m = n % 10;
-            sum = sum + m;
-            n = n / 10;
+            int[] array = { 10, 30, 40, 100, 170, 50, 20, 60 };
+            int max = array[0];
+            int min = array[0];
+            for (int i = 0; i <= array.Length - 1; i++)
+            {
+                if (array[i] > max)
+                {
+                    max = array[i];
+                }
+                if (array[i] < min)
+                {
+                    min = array[i];
+                }
+            }
+            Console.WriteLine(max);
+            Console.WriteLine(min);
+            Console.ReadLine();
         }
-        Console.Write("Sum is= " + sum);
-        Console.ReadLine();
     }
 }
