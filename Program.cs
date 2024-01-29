@@ -10,23 +10,33 @@ namespace Array_Problem4
     {
         static void Main(string[] args)
         {
-            int[] array = { 10, 30, 40, 100, 170, 50, 20, 60 };
-            int max = array[0];
-            int min = array[0];
-            for (int i = 0; i <= array.Length - 1; i++)
-            {
-                if (array[i] > max)
+            
+                int[] items = { 2, 3, 5, 3, 7, 5 };
+                int n = items.Length;
+
+                Console.WriteLine("Unique array elements: ");
+
+                for (int i = 0; i < n; i++)
                 {
-                    max = array[i];
+                    bool isDuplicate = false;
+                    for (int j = 0; j < i; j++)
+                    {
+                        if (items[i] == items[j])
+                        {
+                            isDuplicate = true;
+                            break;
+                        }
+                    }
+
+                    if (!isDuplicate)
+                    {
+                        Console.WriteLine(items[i]);
+
+                    }
                 }
-                if (array[i] < min)
-                {
-                    min = array[i];
-                }
-            }
-            Console.WriteLine(max);
-            Console.WriteLine(min);
-            Console.ReadLine();
+
+                Console.ReadLine();
+            
         }
     }
 }
